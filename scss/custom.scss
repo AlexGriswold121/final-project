@@ -71,6 +71,11 @@ $h6-font-size:1rem;
     color: $primary;
 }
 
+.member{
+    width: 3em;
+    height: 3em;
+}
+
 @media(min-width: 60em) {
     .titre{
         align-content: center;

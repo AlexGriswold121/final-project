@@ -11888,6 +11888,11 @@ textarea.form-control-lg {
   color: #B0DAE7;
 }
 
+.member {
+  width: 3em;
+  height: 3em;
+}
+
 @media (min-width: 60em) {
   .titre {
     align-content: center;
