@@ -11859,27 +11859,17 @@ textarea.form-control-lg {
   background-color: white;
 }
 
-.content-nav {
-  display: flex;
-  overflow: hidden;
-}
-
 .content-nav img {
   display: block;
-  width: 50px;
-  height: 50px;
+  width: 3em;
+  height: 3em;
   border-radius: 100%;
-}
-
-.social {
-  display: flex;
-  overflow: hidden;
 }
 
 .social img {
   display: block;
-  width: 50px;
-  height: 50px;
+  width: 3em;
+  height: 3em;
 }
 
 .titre {
@@ -11896,6 +11886,10 @@ textarea.form-control-lg {
 @media (min-width: 60em) {
   .titre {
     align-content: center;
+  }
+  .content-nav img {
+    width: 5em;
+    height: 5em;
   }
 }
 
